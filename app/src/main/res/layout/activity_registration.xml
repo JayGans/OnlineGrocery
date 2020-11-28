@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+   >
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:background="#CEFFFFFF"
+        android:layout_height="match_parent">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+android:padding="20dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textStyle="italic"
+android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/milkynice"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:padding="7dp"
+        android:textColor="#070606"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout"
+        android:layout_width="match_parent"
+        android:padding="3dp"
+        android:layout_height="wrap_content"
+       >
+                        <EditText
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+android:id="@+id/edregnm"
+
+                            android:fontFamily="sans-serif-condensed"
+                            android:hint="Full Name"
+                            android:singleLine="true"
+                            android:inputType="textCapWords"
+                           />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        >
+                        <EditText
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+android:id="@+id/edregmno"
+                            android:singleLine="true"
+
+                            android:fontFamily="sans-serif-condensed"
+                            android:hint="Mobile Number(Use for Sign in)"
+                            android:inputType="number"
+                            android:maxLength="10"
+
+                           />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+                        <EditText
+                            android:id="@+id/edregemail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+android:singleLine="true"
+
+                            android:fontFamily="sans-serif-condensed"
+                            android:hint="Email(optional)"
+                            android:inputType="textEmailAddress"
+                          />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+                        <EditText
+                            android:id="@+id/edregadrs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:fontFamily="sans-serif-condensed"
+                            android:hint="Address"
+                            android:inputType="textCapWords"
+                           />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+                        <EditText
+                            android:id="@+id/edregcity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:fontFamily="sans-serif-condensed"
+                           android:hint="City"
+                            android:inputType="textCapWords"
+                            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+android:inputType="textPassword"
+                            android:id="@+id/edregpass"
+                            android:hint="Password"
+                            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:visibility="gone"
+                        android:orientation="horizontal">
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/isread"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txtcondi"
+                            android:textColor="@color/colorPrimary"
+                            android:text="I have read and accept terms &amp; conditions"/>
+                    </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="15dp"
+                            android:textColor="#ffffff"
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/btreg"
+                            android:layout_weight="1"
+                            android:layout_marginRight="7dp"
+                            android:background="@drawable/buttoncorner"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Submit"/>
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginLeft="7dp"
+                                android:textColor="#ffffff"
+                                android:layout_marginBottom="10dp"
+                                android:id="@+id/btclosereg"
+                                android:layout_weight="1"
+                                android:background="@drawable/buttonbackred"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="Close"/>
+                        </LinearLayout>
+</LinearLayout>
+                    </LinearLayout>
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

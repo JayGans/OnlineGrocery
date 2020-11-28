@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Terms &amp; Conditions"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#cfcfcf"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="3dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) "
+                android:textStyle="bold"
+                android:textColor="#0a0a0a"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:text="The company has all the right to make any changes according to the requirements from time to time."
+                android:textColor="#0a0a0a"/>
+        </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#cfcfcf"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2) "
+                    android:textStyle="bold"
+                    android:textColor="#0a0a0a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                  android:text="Registration fee amount is non refundable."
+                       android:textColor="#0a0a0a"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#cfcfcf"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3) "
+                    android:textStyle="bold"
+                    android:textColor="#0a0a0a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Minimum Rs.1000 balance amount required to add withdrawal request"
+                    android:textColor="#0a0a0a"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#cfcfcf"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4) "
+                    android:textStyle="bold"
+                    android:textColor="#0a0a0a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="From refer and earn amount Company will deduct 10% Service charges from your income and transfer the remaining payments to the your bank account."
+
+                    android:textColor="#0a0a0a"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#cfcfcf"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5) "
+                    android:textStyle="bold"
+                    android:textColor="#0a0a0a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="After 6 month of deposit. you are able to add withdrawal request.you will get 4% interest on your total amount."
+                      android:textColor="#0a0a0a"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#cfcfcf"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6) "
+                    android:textStyle="bold"
+                    android:textColor="#0a0a0a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="if you withdrawal After 1 year you will get 9% interest on total deposit amount."
+                    android:textColor="#0a0a0a"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#cfcfcf"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7) "
+                    android:textStyle="bold"
+                    android:textColor="#0a0a0a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="if you try to stop account before 6 month. from your balance amount 4% amount will be deducted and remain will transfer in your account."
+
+                    android:textColor="#0a0a0a"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#cfcfcf"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8) "
+                    android:textStyle="bold"
+                    android:textColor="#0a0a0a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:text="Using Refer &amp; Earn you can refer friend and earn amount in 3 level. you will get Level 1st 2% , Level 2nd 1% and Level 3rd 0.5 % commission on every deposit amount."
+                    android:textColor="#0a0a0a"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#cfcfcf"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9) "
+                    android:textStyle="bold"
+                    android:textColor="#0a0a0a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Withdrawal not available on government's holiday."
+                    android:textColor="#0a0a0a"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#cfcfcf"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10) "
+                    android:textStyle="bold"
+                    android:textColor="#0a0a0a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Withdrawal request completed within 24 hours"
+                    android:textColor="#0a0a0a"/>
+            </LinearLayout>
+           <!-- <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:padding="3dp"
+                android:background="#cfcfcf"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11) "
+                    android:textStyle="bold"
+                    android:textColor="#0a0a0a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The company give Insurance policy to you all the risks to that Insurance company."
+                    android:textColor="#0a0a0a"/>
+            </LinearLayout>-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#cfcfcf"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
